@@ -7,15 +7,85 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@color/bgColor"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:padding="20sp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Calculate Your Age in Minutes"
+        android:text="Calculate Your"
         android:textColor="@color/textGood"
-        android:textSize="23sp"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:background="@color/textGood"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="In Minutes"
+        android:textColor="@color/textGood"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Data"
+        android:textSize="18sp"
+        android:textColor="@color/textGood"
+        android:backgroundTint="@color/buttonbgcolor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="23.26.2202"
+        android:textColor="@color/textGood"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="@color/lightGrey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="140000"
+        android:textColor="@color/textGood"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Minutes"
+        android:textColor="@color/lightGrey"
+        android:textSize="20sp"
+        android:textStyle="bold"
         />
 
 </LinearLayout>
