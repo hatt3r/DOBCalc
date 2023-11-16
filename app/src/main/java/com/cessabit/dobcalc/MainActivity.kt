@@ -38,11 +38,8 @@ class MainActivity : AppCompatActivity() {
 
                 val selectedDate = "$SelectedDayOfMonth/${SelectedMonth+1}/$SelectedYear"
                 tvSelectedDate?.setText(selectedDate)
-
                 val sdf = SimpleDateFormat("dd/mm/yyyy", Locale.ENGLISH)
-
                 val theDate = sdf.parse(selectedDate)
-
                 val selectedDateInMinutes = theDate.time/60000;
                 val currentDate = sdf.parse(sdf.format((System.currentTimeMillis())))
                 val currentDateInMinutes = currentDate.time/60000;
